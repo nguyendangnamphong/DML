@@ -18,6 +18,7 @@
 + Ma trận hiệp phương sai không đủ điều kiện: có 29 biến nhiễu mà chỉ có 1690 mẫu.
 + Outlier: Có ngoại lại ở biến kết quả, chi tiết xem ở biểu đồ tại [Link github của Data](https://github.com/nguyendangnamphong/data).
 + Mô hình chưa đủ khả năng.
+                                                            
 **b) Cải thiện**
 + Giảm biễn nhiễu
 + Xóa bỏ Outlier
