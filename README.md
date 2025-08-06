@@ -28,10 +28,11 @@
                                                                                    
 **Kết quả**                                                                          
 <img width="1603" height="822" alt="Capture" src="https://github.com/user-attachments/assets/93ac33d1-cb19-46d4-a0a1-b80c6d626ed0" />                                                                              
-+ ATE: 0.5960692243818116 (thời gian lão hóa tăng thêm 1 giờ thì độ dẫn điện tăng 0.59 %IACS)                
-+ Khoảng tin cậy: 95% (khoảng tin cây
-
-                                                    
++ ATE: 0.5960692243818116 (thời gian lão hóa tăng thêm 1 giờ thì độ dẫn điện tăng 0.59 %IACS) (Khá gần 0 nên thể hiện đúng việc nó không có tác động đáng kể)               
++ Khoảng tin cậy: 95% (giao động từ -1.289 đến 3.433)            (Bao gồm cả 0, thể hiện hiệu ứng nhân quả không có khác biệt đáng kể so về mặt thống kê)                                                                              
+                                                
+**Vấn đề**                                                                      
+Có cảnh báo về ma trận hiệp phương sai:"Co-variance matrix is underdetermined. Inference will be invalid!".                                        
 
 **c) Cải thiện**
 + Giảm biễn nhiễu
