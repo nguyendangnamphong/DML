@@ -28,7 +28,7 @@
 + Cảnh báo:"Co-variance matrix is underdetermined. Inference will be invalid!".                                                                                    
                                                                             
 **c)Vấn đề**                                   
-+ Ma trận hiệp phương sai không đủ điều kiện: có 29 biến nhiễu mà chỉ có 1690 mẫu.
++ Ma trận hiệp phương sai không đủ điều kiện: có 29 biến (28 biến nhiễu và 1 biến điều trị) mà chỉ có 1690 mẫu.
 + Outlier: Trong Electrical_Conductivity_IACS, có 104 cái là outlier.
 + Mô hình chưa đủ khả năng.                                                         
                                      
