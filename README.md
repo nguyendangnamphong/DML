@@ -30,7 +30,7 @@
 **c)Vấn đề**                                   
 + Ma trận hiệp phương sai không đủ điều kiện: có 29 biến (28 biến nhiễu và 1 biến điều trị) mà chỉ có 1690 mẫu.
 + Outlier: Trong Electrical_Conductivity_IACS, có 104 cái là outlier.
-+ Mô hình chưa đủ khả năng.                                                         
+                                                        
                                      
 **d) Ý tưởng cải thiện**
 + Giảm dữ liệu: Giảm từ 29 chất xuống còn 8 chất (Cu, Ni, Si, Al, Mg, Ti, B, Zr) (Nguyên nhân chọn 8 chất trên, em đã giải thích trong phần "III) Phân tích dữ liệu mới" của [Báo cáo dữ liệu](https://docs.google.com/document/d/10M1T0ri0ObnZa7OiIkymtEvvfM4knWlq1v-2LZeKW6w/edit?tab=t.0#heading=h.dvri5th2zbbo) ) 
