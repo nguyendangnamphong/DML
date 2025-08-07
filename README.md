@@ -1,5 +1,4 @@
 # Double Machine Learning                                                          
-**1) Kiểm tra**                              
 **a) Ni là biến điều trị**                                                           
 **Thông tin**                                                                                   
 + Biến nhiễu (confounders): 29 biến (Tất cả các cột số trừ Ni (biến điều trị) và Electrical_Conductivity_IACS (biến kết quả)).                                  
