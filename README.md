@@ -1,7 +1,7 @@
 # Double Machine Learning                                                          
 **a) Ni là biến điều trị**                                                           
 **Thông tin**                                                                                   
-+ Biến nhiễu (confounders): 29 biến (Tất cả các cột số trừ Ni (biến điều trị) và Electrical_Conductivity_IACS (biến kết quả)).                                  
++ Biến nhiễu (confounders): 28 biến( Tất cả chất trừ Ni(biến điều trị) và Electrical_Conductivity_IACS(biến kết quả) ).                                  
 + Số lượng mẫu: 1690 mẫu.                                                                                              
 + Biến điều trị Ni: 59 (distinct values); 3.55 (mean); 2.32 (độ lệch chuẩn); khoảng từ 0 đến 8.                                              
 + Biến kết quả Electrical_Conductivity_IACS: 85 (distinct values); 39.18 (mean); 15.08 (độ lệch chuẩn); khoảng từ 4 đến 92.
