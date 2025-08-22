@@ -48,7 +48,7 @@
                                                            
 **b) Kết quả mô hình mới**                                                                     
 + Không còn cảnh báo "Co-variance matrix is underdetermined. Inference will be invalid!" nữa.
-+ Hiệu ứng nhân quả trung bình (ATE): 30.43633356736651 (tức tăng 1% Ni thì độ dẫn điện tăng 30.436%; điều này không đúng với thực tế, vì theo [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1003632621655292) thì việc tăng Ni sẽ làm tăng kết tủa và giảm dẫn điện) 
++ Hiệu ứng nhân quả trung bình (ATE): 30.43633356736651 (tức tăng 1% Ni thì độ dẫn điện tăng 30.436%; điều này không đúng với thực tế, vì theo [sciencedirect](https://www.sciencedirect.com/science/article/pii/S1003632621655292) thì việc tăng Ni sẽ làm tăng kết tủa và giảm dẫn điện; không chỉ vậy, kể cả trong ma trận tương quan tại [Báo cáo dữ liệu](https://docs.google.com/document/d/10M1T0ri0ObnZa7OiIkymtEvvfM4knWlq1v-2LZeKW6w/edit?usp=sharing) thì em cũng ra kết quả là Ni có tương quan âm với độ dẫn điện) 
 + Khoảng tin cậy: giao động từ -18 đến 149                                                                                                                             
 <img width="1000" height="600" alt="causal_effect_plot" src="https://github.com/user-attachments/assets/5c236b93-e7e6-4370-ae18-d77b2b76cb14" />
                                                                                           
