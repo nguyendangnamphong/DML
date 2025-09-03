@@ -63,40 +63,29 @@
                                      
                                  
 **B) Sử dụng DoWhy + EconML**                                                       
-                                                   
-**1) Thư viện DoWhy**                                                         
-**a) Thông tin chung**                                                                                                                    
 + Data: final_data
 + Biến nhiễu: 6 chất
 + Treatment (tạm thời): Phần trăm đo độ lệch kích thước nguyên tử
-+ Outcome: Độ dẫn điện
-**b) Kết quả**
++ Outcome: Độ dẫn điện                                          
+                                                                             
+**1) Thư viện DoWhy**                                                         
   <img width="800" height="500" alt="bootstrap_ATE_CI" src="https://github.com/user-attachments/assets/700ff075-4593-4983-bd06-a0cd8fc3211d" />
   <img width="800" height="500" alt="placebo_permutation" src="https://github.com/user-attachments/assets/10f57181-2e53-46f2-adc8-fc942f31e7f9" />
-                                                                                          
+                                                                                                                 
 **2) Thư viện EconML**                                                   
-**a) Thông tin chung**                                                        
-+ Data: final_data
-+ Biến nhiễu: 6 chất
-+ Treatment (tạm thời): Phần trăm đo độ lệch kích thước nguyên tử
-+ Outcome: Độ dẫn điện
-**b) Kết quả**
 <img width="800" height="500" alt="bootstrap_ATE_CI" src="https://github.com/user-attachments/assets/07b7544a-15b2-4f34-ae0c-8756d515d7b7" />
 <img width="800" height="500" alt="placebo_permutation" src="https://github.com/user-attachments/assets/e0f5de69-63fa-4855-95b6-e8a68c3982ba" />
-                                                                 
+                                                                                       
 **3) DoWhy +EconML**                                                                         
-**a) Thông tin chung**                                                    
-+ Data: final_data
-+ Biến nhiễu: 6 chất
-+ Treatment (tạm thời): Phần trăm đo độ lệch kích thước nguyên tử
-+ Outcome: Độ dẫn điện
-**b) Cách sử dụng**
+                                                  
+**a) Cách sử dụng**               
 + Vẽ với ghi lại DAG rồi xác định estimand (DoWhy)
 + Kiểm tra sufficiency của V5 (DoWhy)
 + Estimate chính bằng machine-learning causal estimators (EconML)
 + Lấy kết quả estimate & intervals từ EconML (EconML)
-+ Refutation (DoWhy)                                                        
-**c) Kết quả**
++ Refutation (DoWhy)
+                                                                                              
+**b) Kết quả**
 <img width="800" height="500" alt="dowhy_bootstrap_ATE_CI" src="https://github.com/user-attachments/assets/5f1008b3-cb9d-4d2b-8312-b1ae6744d8bc" />
 <img width="800" height="500" alt="dowhy_placebo_permutation" src="https://github.com/user-attachments/assets/bcf0f928-8fb7-4806-9f64-a9168033b8af" />
 
