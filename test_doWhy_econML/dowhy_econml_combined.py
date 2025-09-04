@@ -1,7 +1,3 @@
-# Combined DoWhy + EconML pipeline
-# Expected data file: D:/Khóa luận/data/final_data.csv
-# Outputs: PNG plots saved to D:/Khóa luận/data
-
 import os
 import sys
 import numpy as np
@@ -264,3 +260,4 @@ def run_pipeline(input_path=INPUT_PATH, output_dir=OUTPUT_DIR,
 
 if __name__ == '__main__':
     run_pipeline()
+
