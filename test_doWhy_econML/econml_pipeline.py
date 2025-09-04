@@ -1,6 +1,3 @@
-# EconML causal pipeline (EconML only)
-# File expected at: D:/Khóa luận/data/final_data.csv
-
 import os
 import sys
 import numpy as np
@@ -194,3 +191,4 @@ def main(input_path=DEFAULT_INPUT, output_dir=DEFAULT_OUTPUT_DIR, n_boot=100, n_
 
 if __name__ == '__main__':
     main()
+
