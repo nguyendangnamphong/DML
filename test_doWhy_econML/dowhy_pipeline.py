@@ -1,5 +1,3 @@
-# DoWhy-only causal pipeline (file and data expected at D:/Khóa luận/data)
-
 import os
 import sys
 import numpy as np
@@ -186,3 +184,4 @@ def main(input_path=DEFAULT_INPUT, output_dir=DEFAULT_OUTPUT_DIR, n_boot=200, n_
 
 if __name__ == '__main__':
     main()
+
